@@ -7,25 +7,6 @@ import './Home.css';
 const Home: React.FC = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light-subtle mb-3">
-                <div className="container-fluid">
-                    <span className="text-uppercase text-logo">ПИК</span>
-                    <ul className="navbar-nav mr-auto text-uppercase">
-                        <li className="nav-item">
-                            <NavLink to="/" className="nav-link" >Home</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="continue" className="nav-link">contacts</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="/about-us" className="nav-link">about us</NavLink>
-                        </li>
-                        <li className="nav-item">
-                            <NavLink to="/profile" className="nav-link">profile</NavLink>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
             <main>
                 <div className="sale-block row justify-content-center">
                     <div className="sela1 col-3 m-2">
