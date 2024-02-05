@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './containers/Home';
 import Contacts from './components/Contacts/Contacts';
 import AboutUs from './components/AboutUs/AboutUs';
+import Profile from './components/Profile/Profile';
 
 const App:React.FC = () => {
   return (
@@ -42,6 +43,10 @@ const App:React.FC = () => {
 
               <Route path="/about-us" element={(
                   <AboutUs />
+              )} />
+
+              <Route path="/profile" element={(
+                  <Profile />
               )} />
 
             <Route path="*" element={<h1>Not found</h1>}/>
