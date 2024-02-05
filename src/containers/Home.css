@@ -1,0 +1,21 @@
+.text-logo {
+    font-size: 30px;
+    color: orangered;
+}
+
+.sela1 {
+    background: orangered;
+    height: 400px;
+
+}
+
+.sela2 {
+    background: lightgreen;
+    height: 400px;
+}
+
+.sela3 {
+    background: url("https://www.pufikhomes.com/wp-content/uploads/2019/06/sovremennaya-belaya-kvartira-dlya-devushki-v-starom-dome-moskvy-pufikhomes-1.jpg") no-repeat ;
+    height: 400px;
+    background-size: cover;
+}
