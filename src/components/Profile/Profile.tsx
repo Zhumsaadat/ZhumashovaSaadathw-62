@@ -18,7 +18,7 @@ const Profile = () => {
                 <span className="border border-black p-2 d-inline-block rounded-5">Условия покупки</span>
                 <span className="border border-black p-2 d-inline-block rounded-5">Все фильтры</span>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5 text-center">
                 <div className="card col-3">
                     <img src="https://cdn.pik.ru/articles/72390/2022/05/27/785326a25e6d14c5f532168e1cd4e678.jpg" className="card-img-top" alt="..."/>
                         <div className="card-body">
@@ -40,9 +40,10 @@ const Profile = () => {
                 <div className="card col-3">
                     <img src="https://cdn.pik.ru/articles/72390/2022/05/27/785326a25e6d14c5f532168e1cd4e678.jpg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        Метро Парк культуры
+                        Метро Парк культураы
                     </div>
                 </div>
+
             </div>
         </div>
     );
