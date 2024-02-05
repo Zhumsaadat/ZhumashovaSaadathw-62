@@ -1,5 +1,5 @@
-import React from 'react';
-import { Route, NavLink, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Route, NavLink, Routes, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './containers/Home';
 import Contacts from './components/Contacts/Contacts';
@@ -7,12 +7,13 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Profile from './components/Profile/Profile';
 
 const App:React.FC = () => {
+
   return (
       <>
           <header>
-              <nav className="navbar navbar-expand-lg navbar-light bg-light-subtle mb-3">
+              <nav className="navbar navbar-expand-lg navbar-light bg-body-secondary mb-3">
                   <div className="container-fluid">
-                      <span className="text-uppercase text-logo">ПИК</span>
+                      <Link to="/" className="text-uppercase text-logo">ПИК</Link>
                       <ul className="navbar-nav mr-auto text-uppercase">
                           <li className="nav-item">
                               <NavLink to="/" className="nav-link" >Home</NavLink>
