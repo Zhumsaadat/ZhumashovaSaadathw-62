@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
 import { Route, NavLink, Routes, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './containers/Home';
 import Contacts from './components/Contacts/Contacts';
 import AboutUs from './components/AboutUs/AboutUs';
 import Profile from './components/Profile/Profile';
+import React from 'react';
 
 const App:React.FC = () => {
 

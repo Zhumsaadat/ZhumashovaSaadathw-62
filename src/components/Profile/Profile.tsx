@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Profile.css"
+import "./Profile.css";
 import { PROFILES } from '../../constants';
 
 const Profile = () => {
@@ -20,7 +20,7 @@ const Profile = () => {
                 <span className="border border-black p-2 d-inline-block rounded-5">Все фильтры</span>
             </div>
             <div className="row mt-5 justify-content-center">
-                {PROFILES.map((profile, index) => (
+                {PROFILES.map(profile => (
                     <div className="card col-3 mx-2">
                         <img src={profile.img} className="card-img-top" alt="..."/>
                         <div className="card-body">
